@@ -1,0 +1,96 @@
+{
+  "initial_stats": {
+    "health": 1000,
+    "attack": 1500,
+    "defense": 500,
+    "penetration": 200,
+    "crit_rate": 10,
+    "crit_damage": 150,
+    "mastery": 0,
+    "penetration_rate": 20,
+    "impact": 100,
+    "energy_regen": 5,
+    "physical_damage": 50,
+    "fire_damage": 30,
+    "ice_damage": 30,
+    "electric_damage": 30,
+    "ether_damage": 30
+  },
+  "engine": {
+    "bonus_stats": {
+      "health": 0.1,
+      "attack": 0.2,
+      "defense": 0.1,
+      "crit_rate": 0.05
+    }
+  },
+  "drive_discs": [
+    {
+      "name": "Disc A1",
+      "slot": 1,
+      "set": "Set X",
+      "stats": {
+        "health": 100,
+        "attack": 50,
+        "defense": 20,
+        "crit_rate": 0.02
+      }
+    },
+    {
+      "name": "Disc B1",
+      "slot": 2,
+      "set": "Set Y",
+      "stats": {
+        "attack": 100,
+        "penetration": 30,
+        "crit_damage": 0.1
+      }
+    },
+    {
+      "name": "Disc C1",
+      "slot": 3,
+      "set": "Set X",
+      "stats": {
+        "defense": 50,
+        "impact": 20
+      }
+    },
+    {
+      "name": "Disc D1",
+      "slot": 4,
+      "set": "Set Z",
+      "stats": {
+        "penetration_rate": 10,
+        "energy_regen": 1
+      }
+    },
+    {
+      "name": "Disc E1",
+      "slot": 5,
+      "set": "Set X",
+      "stats": {
+        "crit_rate": 0.03,
+        "physical_damage": 10
+      }
+    },
+    {
+      "name": "Disc F1",
+      "slot": 6,
+      "set": "Set Y",
+      "stats": {
+        "ice_damage": 20,
+        "fire_damage": 20
+      }
+    }
+  ],
+  "evaluation_constraints": {
+    "stat_constraints": {
+      "attack": ">3000",
+      "penetration_rate": ">40"
+    },
+    "set_constraints": {
+      "Set X": ">=4",
+      "Set Y": ">=2"
+    }
+  }
+}

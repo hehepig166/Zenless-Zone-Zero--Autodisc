@@ -1,0 +1,186 @@
+{
+    "player": {
+        "initial_stats": {
+            "HP": 7673,
+            "ATK": 880,
+            "DEF": 606,
+            "Impact": 86,
+            "CRIT Rate": 5,
+            "CRIT DMG": 50,
+            "Anomaly Mastery": 116,
+            "Anomaly Proficiency": 238,
+            "PEN Ratio": 0,
+            "PEN": 0,
+            "Energy Regen": 1.2,
+            "Energy Generation Rate": 0,
+            "Energy Limit": 120,
+            "Physical DMG Bonus": 0,
+            "Fire DMG Bonus": 0,
+            "Ice DMG Bonus": 0,
+            "Electric DMB Bonus": 0,
+            "Ether DMB Bonus": 0
+        }
+    },
+
+    "equipment": [
+        {
+            "name": "霞落星殿",
+            "slot": 0,
+            "set": "音擎",
+            "basic_stats": {
+                "ATK": 743
+            },
+            "stats": {
+                "CRIT Rate": 24
+            }
+        },
+
+        {
+            "name": "b_1_01",
+            "slot": 1,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "HP": 2200,
+                "DEF@": 4.8,
+                "CRIT Rate": 9.6,
+                "ATK": 38,
+                "CRIT DMG": 9.6
+            }
+        },
+        {
+            "name": "b_1_02",
+            "slot": 1,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "HP": 2200,
+                "CRIT DMG": 14.4,
+                "ATK@": 6,
+                "Anomaly Proficiency": 9,
+                "DEF": 30
+            }
+        },
+        {
+            "name": "a_1_01",
+            "slot": 1,
+            "set": "Astral Voice",
+            "stats": {
+                "HP": 2200,
+                "ATK@": 6,
+                "PEN": 36,
+                "CRIT Rate": 2.4,
+                "Anomaly Proficiency": 9
+            }
+        },
+
+        {
+            "name": "b_2_01",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "ATK@": 12,
+                "CRIT Rate": 2.4,
+                "HP@": 6,
+                "PEN": 9
+            }
+        },
+        {
+            "name": "a_2_01",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "CRIT Rate": 4.8,
+                "DEF@": 9.6,
+                "ATK@": 6,
+                "PEN": 18
+            }
+        },
+
+        {
+            "name": "b_4_01",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "CRIT Rate": 24,
+                "DEF": 15,
+                "HP": 224,
+                "CRIT DMG": 9.6,
+                "PEN": 27
+            }
+        },
+
+        {
+            "name": "b_5_01",
+            "slot": 5,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "ATK@": 9,
+                "HP@": 3,
+                "Anomaly Proficiency": 18,
+                "DEF": 30
+            }
+        },
+
+        {
+            "name": "b_6_01",
+            "slot": 6,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "HP": 112,
+                "CRIT DMG": 14.4,
+                "ATK": 38,
+                "PEN": 18
+            }
+        },
+        {
+            "name": "a_6_01",
+            "slot": 6,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK@": 30,
+                "PEN": 18,
+                "DEF": 30,
+                "CRIT Rate": 7.2,
+                "Anomaly Proficiency": 9
+            }
+        },
+
+
+        {
+            "name": "嘉音加成",
+            "slot": 7,
+            "set": "其它",
+            "stats": {
+                "ATK@": 10
+            }
+        },
+        {
+            "name": "折枝加成",
+            "slot": 8,
+            "set": "其它",
+            "stats": {
+                "CRIT DMG": 16
+            }
+        }
+
+    ],
+
+    "constraints": {
+        "stat_constraints": {
+            "ATK": ">=2800",
+            "CRIT Rate": ">=65",
+            "CRIT DMG": ">=85",
+            "PEN": ">60"
+        },
+        "set_constraints": {
+            "音擎": 1,
+            "Branch & Blade Song": 2,
+            "Astral Voice": 2,
+            "其它": 2
+        }
+    }
+
+}

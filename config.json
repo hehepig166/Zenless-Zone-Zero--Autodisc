@@ -1,0 +1,706 @@
+{
+    "player": {
+        "initial_stats": {
+            "HP": 7673,
+            "ATK": 880,
+            "DEF": 606,
+            "Impact": 86,
+            "CRIT Rate": 5,
+            "CRIT DMG": 50,
+            "Anomaly Mastery": 116,
+            "Anomaly Proficiency": 238,
+            "PEN Ratio": 0,
+            "PEN": 0,
+            "Energy Regen": 1.2,
+            "Energy Generation Rate": 0,
+            "Energy Limit": 120,
+            "Physical DMG Bonus": 0,
+            "Fire DMG Bonus": 0,
+            "Ice DMG Bonus": 0,
+            "Electric DMB Bonus": 0,
+            "Ether DMB Bonus": 0
+        }
+    },
+
+    "equipment": [
+        {
+            "name": "Hailstorm Shrine",
+            "slot": 0,
+            "set": "W-Engine",
+            "basic_stats": {
+                "ATK": 743
+            },
+            "stats": {  
+                "CRIT Rate": 24
+            }
+        },
+
+        {
+            "name": "b_1_01",
+            "slot": 1,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "HP": 2200,
+                "DEF@": 4.8,
+                "CRIT Rate": 9.6,
+                "ATK": 38,
+                "CRIT DMG": 9.6
+            }
+        },
+        {
+            "name": "b_1_02",
+            "slot": 1,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "HP": 2200,
+                "CRIT DMG": 14.4,
+                "ATK@": 6,
+                "Anomaly Proficiency": 9,
+                "DEF": 30
+            }
+        },
+        {
+            "name": "a_1_01",
+            "slot": 1,
+            "set": "Astral Voice",
+            "stats": {
+                "HP": 2200,
+                "ATK@": 6,
+                "PEN": 36,
+                "CRIT Rate": 2.4,
+                "Anomaly Proficiency": 9
+            }
+        },
+        {
+            "name": "a_1_02",
+            "slot": 1,
+            "set": "Astral Voice",
+            "stats": {
+                "HP": 2200,
+                "PEN": 9,
+                "CRIT Rate": 7.2,
+                "CRIT DMG": 9.6,
+                "Anomaly Proficiency": 18
+            }
+        },
+
+        {
+            "name": "b_2_01",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "ATK@": 12,
+                "CRIT Rate": 2.4,
+                "HP@": 6,
+                "PEN": 9
+            }
+        },
+        {
+            "name": "b_2_02",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "ATK@": 6,
+                "PEN": 18,
+                "CRIT DMG": 9.6,
+                "HP": 224
+            }
+        },
+        {
+            "name": "b_2_03",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "DEF": 9.6,
+                "CRIT DMG": 9.6,
+                "HP@": 6,
+                "ATK@": 9
+            }
+        },
+        {
+            "name": "b_2_04",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "CRIT Rate": 4.8,
+                "HP@": 9,
+                "ATK@": 6,
+                "PEN": 18
+            }
+        },
+        {
+            "name": "b_2_05",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "CRIT DMG": 4.8,
+                "CRIT Rate": 7.2,
+                "DEF": 45,
+                "HP": 112
+            }
+        },
+        {
+            "name": "b_2_06",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "CRIT DMG": 4.8,
+                "HP": 112,
+                "ATK@": 6,
+                "HP@": 12
+            }
+        },
+        {
+            "name": "b_2_06",
+            "slot": 2,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK": 316,
+                "HP": 224,
+                "CRIT Rate": 4.8,
+                "DEF": 15,
+                "DEF@": 14.4
+            }
+        },
+        {
+            "name": "a_2_01",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "CRIT Rate": 4.8,
+                "DEF@": 9.6,
+                "ATK@": 6,
+                "PEN": 18
+            }
+        },
+        {
+            "name": "a_2_02",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "Anomaly Proficiency": 9,
+                "DEF@": 4.8,
+                "CRIT DMG": 14.4,
+                "PEN": 27
+            }
+        },
+        {
+            "name": "a_2_03",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "ATK@": 6,
+                "PEN": 27,
+                "CRIT Rate": 4.8,
+                "DEF@": 4.8
+            }
+        },
+        {
+            "name": "a_2_04",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "ATK@": 3,
+                "PEN": 18,
+                "CRIT DMG": 9.6,
+                "Anomaly Proficiency": 27
+            }
+        },
+        {
+            "name": "a_2_05",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "DEF@": 9.6,
+                "PEN": 9,
+                "Anomaly Proficiency": 18,
+                "ATK@": 12
+            }
+        },
+        {
+            "name": "a_2_06",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "CRIT DMG": 9.6,
+                "PEN": 9,
+                "DEF@": 14.4,
+                "ATK@": 6
+            }
+        },
+        {
+            "name": "a_2_07",
+            "slot": 2,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK": 316,
+                "HP": 224,
+                "CRIT Rate": 9.6,
+                "PEN": 9,
+                "Anomaly Proficiency": 9
+            }
+        },
+
+        {
+            "name": "b_3_01",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "CRIT DMG": 4.8,
+                "PEN": 18,
+                "ATK@": 6,
+                "HP": 336
+            }
+        },
+        {
+            "name": "b_3_02",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "CRIT Rate": 2.4,
+                "PEN": 27,
+                "HP@": 6,
+                "CRIT DMG": 9.6
+            }
+        },
+        {
+            "name": "b_3_03",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "CRIT DMG": 4.8,
+                "CRIT Rate": 4.8,
+                "HP@": 3,
+                "ATK": 76
+            }
+        },
+        {
+            "name": "b_3_04",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 3,
+                "CRIT Rate": 2.4,
+                "DEF@": 9.6,
+                "Anomaly Proficiency": 36
+            }
+        },
+        {
+            "name": "b_3_05",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "CRIT DMG": 14.4,
+                "HP@": 3,
+                "PEN": 9,
+                "ATK": 76
+            }
+        },
+        {
+            "name": "b_3_06",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "PEN": 27,
+                "Anomaly Proficiency": 9,
+                "CRIT DMG": 14.4,
+                "CRIT Rate": 2.4
+            }
+        },
+        {
+            "name": "b_3_07",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "Anomaly Proficiency": 9,
+                "CRIT DMG": 4.8,
+                "HP": 224,
+                "ATK": 95
+            }
+        },
+        {
+            "name": "b_3_08",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 3,
+                "CRIT DMG": 9.6,
+                "Anomaly Proficiency": 27,
+                "HP@": 9
+            }
+        },
+        {
+            "name": "b_3_09",
+            "slot": 3,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "DEF": 184,
+                "HP@": 3,
+                "Anomaly Proficiency": 18,
+                "CRIT Rate": 9.6,
+                "ATK@": 3
+            }
+        },
+        {
+            "name": "a_3_01",
+            "slot": 3,
+            "set": "Astral Voice",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 6,
+                "CRIT DMG": 4.8,
+                "ATK": 38,
+                "PEN": 27
+            }
+        },
+        {
+            "name": "a_3_02",
+            "slot": 3,
+            "set": "Astral Voice",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 6,
+                "Anomaly Proficiency": 36,
+                "HP": 224,
+                "CRIT Rate": 2.4
+            }
+        },
+        {
+            "name": "a_3_03",
+            "slot": 3,
+            "set": "Astral Voice",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 9,
+                "CRIT DMG": 4.8,
+                "CRIT Rate": 2.4,
+                "ATK": 57
+            }
+        },
+        {
+            "name": "a_3_04",
+            "slot": 3,
+            "set": "Astral Voice",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 6,
+                "HP@": 6,
+                "CRIT Rate": 4.8,
+                "Anomaly Proficiency": 18
+            }
+        },
+        {
+            "name": "a_3_05",
+            "slot": 3,
+            "set": "Astral Voice",
+            "stats": {
+                "DEF": 184,
+                "ATK@": 3,
+                "Anomaly Proficiency": 27,
+                "ATK": 57,
+                "CRIT Rate": 4.8
+            }
+        },
+
+
+
+
+        {
+            "name": "b_4_01",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "CRIT Rate": 24,
+                "DEF": 15,
+                "HP": 224,
+                "CRIT DMG": 9.6,
+                "PEN": 27
+            }
+        },
+        {
+            "name": "b_4_02",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "ATK": 38,
+                "CRIT Rate": 7.2,
+                "HP": 112,
+                "CRIT DMG": 14.4
+            }
+        },
+        {
+            "name": "b_4_03",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "HP@": 6,
+                "Anomaly Proficiency": 36,
+                "CRIT Rate": 2.4,
+                "ATK": 19
+            }
+        },
+        {
+            "name": "b_4_04",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "CRIT Rate": 24,
+                "Anomaly Proficiency": 18,
+                "CRIT DMG": 4.8,
+                "ATK@": 6,
+                "ATK": 57
+            }
+        },
+        {
+            "name": "b_4_05",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "CRIT Rate": 2.4,
+                "CRIT DMG": 9.6,
+                "PEN": 9,
+                "ATK": 76
+            }
+        },
+        {
+            "name": "b_4_06",
+            "slot": 4,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "DEF": 30,
+                "CRIT Rate": 4.8,
+                "PEN": 18,
+                "CRIT DMG": 9.6
+            }
+        },
+        {
+            "name": "a_4_01",
+            "slot": 4,
+            "set": "Astral Voice",
+            "stats": {
+                "CRIT Rate": 24,
+                "ATK@": 6,
+                "Anomaly Proficiency": 27,
+                "HP@": 6,
+                "ATK": 38
+            }
+        },
+        {
+            "name": "a_4_02",
+            "slot": 4,
+            "set": "Astral Voice",
+            "stats": {
+                "CRIT Rate": 24,
+                "ATK@": 9,
+                "Anomaly Proficiency": 9,
+                "DEF": 30,
+                "DEF@": 9.6
+            }
+        },
+        {
+            "name": "a_4_03",
+            "slot": 4,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK@": 30,
+                "CRIT DMG": 4.8,
+                "DEF": 30,
+                "ATK": 38,
+                "CRIT Rate": 7.2
+            }
+        },
+        {
+            "name": "a_4_04",
+            "slot": 4,
+            "set": "Astral Voice",
+            "stats": {
+                "CRIT DMG": 48,
+                "HP@": 6,
+                "DEF": 9.6,
+                "CRIT Rate": 7.2,
+                "PEN": 9
+            }
+        },
+        {
+            "name": "a_4_05",
+            "slot": 4,
+            "set": "Astral Voice",
+            "stats": {
+                "CRIT Rate": 24,
+                "Anomaly Proficiency": 9,
+                "ATK@": 6,
+                "DEF@": 9.6,
+                "PEN": 27
+            }
+        },
+
+
+        {
+            "name": "b_5_01",
+            "slot": 5,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "ATK@": 9,
+                "HP@": 3,
+                "Anomaly Proficiency": 18,
+                "DEF": 30
+            }
+        },
+        {
+            "name": "b_5_02",
+            "slot": 5,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "HP@": 6,
+                "ATK": 38,
+                "ATK@": 6,
+                "DEF": 30
+            }
+        },
+        {
+            "name": "b_5_03",
+            "slot": 5,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "CRIT Rate": 4.8,
+                "Anomaly Proficiency": 9,
+                "DEF": 45,
+                "CRIT DMG": 14.4
+            }
+        },
+        {
+            "name": "b_5_04",
+            "slot": 5,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "Anomaly Proficiency": 27,
+                "CRIT Rate": 2.4,
+                "DEF@": 4.8,
+                "HP@": 9
+            }
+        },
+        {
+            "name": "a_5_01",
+            "slot": 5,
+            "set": "Astral Voice",
+            "stats": {
+                "Ice DMG Bonus": 30,
+                "ATK": 95,
+                "ATK@": 6,
+                "HP@": 3,
+                "PEN": 9
+            }
+        },
+
+
+        {
+            "name": "b_6_01",
+            "slot": 6,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "HP": 112,
+                "CRIT DMG": 14.4,
+                "ATK": 38,
+                "PEN": 18
+            }
+        },
+        {
+            "name": "b_6_02",
+            "slot": 6,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "DEF": 15,
+                "DEF@": 9.6,
+                "CRIT DMG": 14.4,
+                "ATK": 38
+            }
+        },
+        {
+            "name": "b_6_03",
+            "slot": 6,
+            "set": "Branch & Blade Song",
+            "stats": {
+                "ATK@": 30,
+                "DEF": 15,
+                "DEF@": 14.4,
+                "Anomaly Proficiency": 9
+            }
+        },
+        {
+            "name": "a_6_01",
+            "slot": 6,
+            "set": "Astral Voice",
+            "stats": {
+                "ATK@": 30,
+                "PEN": 18,
+                "DEF": 30,
+                "CRIT Rate": 7.2,
+                "Anomaly Proficiency": 9
+            }
+        },
+
+        {
+            "name": "Astral Bonus",
+            "slot": 7,
+            "set": "Bonus",
+            "stats": {
+                "ATK@": 10
+            }
+        },
+        {
+          "name": "Branch Bonus",
+          "slot": 8,
+          "set": "Bonus",
+          "stats": {
+              "CRIT DMG": 16
+          }
+        }
+  
+    ],
+
+    "constraints": {
+        "stat_constraints": {
+            "ATK": ">=3100",
+            "CRIT Rate": ">=65",
+            "CRIT DMG": ">=120",
+            "PEN": ">=30"
+        },
+        "set_constraints": {
+            "W-Engine": 1,
+            "Branch & Blade Song": 4,
+            "Astral Voice": 2,
+            "Bonus": 2
+        }
+    } 
+}
+  
